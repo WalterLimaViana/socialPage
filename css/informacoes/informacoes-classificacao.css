@@ -1,0 +1,39 @@
+.informacoes__classificacao {
+  display: grid;
+  grid-gap: 20px;
+  height: 30%;
+  align-items: center;
+  margin: 3.5rem;
+  justify-content: space-around;
+}
+
+.informacoes__classificacao___caixa--um,
+.informacoes__classificacao___caixa--dois,
+.informacoes__classificacao___caixa--tres {
+  background-color: hsl(300, 24%, 96%);
+  padding: 0.01rem 2rem;
+  border-radius: 0.5rem;
+}
+
+.informacoes__classificacao___caixa--um {
+  margin-right: 6rem;
+}
+
+.informacoes__classificacao___caixa--dois {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.informacoes__classificacao___caixa--tres {
+  margin-left: 6rem;
+}
+
+.informacoes__classificacao___descricao {
+  font-weight: bold;
+  color: var(--Very-Dark-Magenta);
+}
+
+.informacoes__classificacao___descricao::before {
+  content: "✭ ✭ ✭ ✭ ✭   ";
+  color: var(--gold);
+}
