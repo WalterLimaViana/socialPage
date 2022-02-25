@@ -1,0 +1,55 @@
+.depoimentos__individuais--Colton,
+.depoimentos__individuais--Irene,
+.depoimentos__individuais--Anne {
+  background-color: var(--Very-Dark-Magenta);
+  padding: 1.3em 1.4em;
+  font-weight: 300;
+  font-size: 12px;
+  width: 27.5%;
+  border-radius: 10px;
+  position: relative;
+}
+
+.depoimentos__individuais--Colton {
+  top: -10px;
+  bottom: 10px;
+}
+
+.depoimentos__individuais--Irene {
+  top: 10px;
+  bottom: 10px;
+}
+.depoimentos__individuais--Anne {
+  top: 30px;
+  bottom: -20px;
+}
+
+.depoimentos__individuais___pessoa {
+  display: flex;
+}
+
+.depoimentos__individuais___imagem {
+  margin-top: 1.5%;
+  border-radius: 100%;
+  width: 18%;
+  height: 18%;
+}
+
+.depoimentos__individuais___informacoes {
+  margin-top: 0.25%;
+  margin-left: 0.7rem;
+}
+
+.depoimentos__individuais___nome {
+  color: var(--White);
+  margin-bottom: 1px;
+}
+
+.depoimentos__individuais___usuario {
+  color: var(--Soft-Pink);
+  margin-top: 1px;
+}
+
+.depoimentos__individuais___texto {
+  color: var(--White);
+}

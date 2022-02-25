@@ -2,6 +2,7 @@ body {
   font-family: Spartan;
   font-size: 15px;
   margin: 10rem;
+  background-image: url(../images/bg-pattern-bottom-desktop.svg);
 }
 
 :root {
