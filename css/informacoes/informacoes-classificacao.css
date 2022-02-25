@@ -37,3 +37,19 @@
   content: "✭ ✭ ✭ ✭ ✭   ";
   color: var(--gold);
 }
+
+@media screen and (max-width: 375px) {
+  .informacoes__classificacao {
+    display: inline-block;
+    font-size: 11px;
+    height: 30%;
+    align-items: center;
+    margin: 0.01rem;
+  }
+  .informacoes__classificacao___caixa--um,
+  .informacoes__classificacao___caixa--dois,
+  .informacoes__classificacao___caixa--tres {
+    margin: 0 1rem 1rem;
+    padding: 0.1rem 0.5rem;
+  }
+}

@@ -23,3 +23,15 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media screen and (max-width: 475px) {
+  body {
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  body {
+    margin: 1rem;
+  }
+}

@@ -18,3 +18,16 @@
   font-weight: 300;
   font-size: 1em;
 }
+
+@media screen and (max-width: 475px) {
+  .informacoes__sobre {
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+  .informacoes__sobre___titulo,
+  .informacoes__sobre___descricao {
+    padding: 1rem;
+    text-align: center;
+  }
+}

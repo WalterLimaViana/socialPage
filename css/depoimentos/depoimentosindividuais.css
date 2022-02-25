@@ -53,3 +53,19 @@
 .depoimentos__individuais___texto {
   color: var(--White);
 }
+
+@media screen and (max-width: 475px) {
+  .depoimentos .container {
+    display: inline-block;
+    margin: auto;
+    margin-top: 4em;
+  }
+
+  .depoimentos__individuais--Colton,
+  .depoimentos__individuais--Irene,
+  .depoimentos__individuais--Anne {
+    padding: auto;
+    margin: auto;
+    width: 80%;
+  }
+}

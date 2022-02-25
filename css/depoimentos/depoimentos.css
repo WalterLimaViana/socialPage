@@ -5,3 +5,10 @@
   margin-bottom: 15rem;
   position: relative;
 }
+
+@media screen and (max-width: 475px) {
+  .depoimentos .container {
+    display: inline-block;
+    margin: auto;
+  }
+}
